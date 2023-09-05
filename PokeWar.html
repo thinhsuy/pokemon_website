@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Styles/pokewar.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeWar</title>
+</head>
+
+<body>
+    <div class="first-intro" id="side1">
+        <div class="first-intro-layer">
+            <svg style="position: absolute;">
+                <filter id="floating">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="10" />
+                    <feColorMatrix values="
+                        1 0 0 0 0
+                        0 1 0 0 0
+                        0 0 1 0 0
+                        0 0 0 20 -10"></feColorMatrix>
+                </filter>
+            </svg>
+            <div class="loader">
+                <span class="point" style="--i:1;"></span>
+                <span class="point" style="--i:2;"></span>
+                <span class="point" style="--i:3;"></span>
+                <span class="point" style="--i:4;"></span>
+                <span class="point" style="--i:5;"></span>
+                <span class="point" style="--i:6;"></span>
+                <span class="point" style="--i:7;"></span>
+                <span class="point" style="--i:8;"></span>
+                <span class="rotate" style="--j:1;"></span>
+                <span class="rotate" style="--j:2;"></span>
+                <span class="rotate" style="--j:3;"></span>
+                <span class="rotate" style="--j:4;"></span>
+            </div>
+        </div>
+        <h1 class="introHeader">This is made by <span>ThinhSea</span></h1>
+    </div>
+    <div class="first-intro" id="side2"></div>
+
+    <div class="mainBg">
+        <div class="header">
+            <div class="navigation">Gameplay</div>
+            <div class="navigation">Download</div>
+            <div class="navigation">Contact</div>
+            <div class="navigation">MoreGames</div>
+        </div>
+
+        <div class="title">
+            <div class="text1" data-text="Creative"><span style="font-style: italic; font-weight: bolder; color: #36AE7C">P</span>okewar</div>
+            <div class="text2" data-text="Visibility"><span style="font-style: italic; font-weight: bolder; color: #36AE7C">R</span>eborn</div>
+        </div>
+
+        <div class="second-screen">
+            <div class="content" data-jarallax-element="0 10">
+                <p>“This kind of product just took me lot of time and effort, it was not about the data, was not about
+                    operations, even it was not about researching, . . . It was about all of above things just happened
+                    in one person and I think next time, I would never do it <span class="special-word">ALONE</span>
+                    again.”</p>
+            </div>
+            <div class="card-contatiner" data-jarallax-element="0 -50">
+                <div class="card" id="c1"><img src="Sources/Blastoise.jpg"></div>
+                <div class="card" id="c2"><img src="Sources/Venusaur.jpg"></div>
+                <div class="card" id="c3"><img src="Sources/Charizard.png"></div>
+            </div>
+        </div>
+        <div
+            style="position:relative; height: 3px; width: 50%; background-color: gray; left: 25%; border-radius: 2px; opacity: 0.5;">
+        </div>
+    </div>
+    <div class="secondBg">
+        <div class="title">Featu<span style="font-family: 'Montserrat'; font-style: italic; font-weight: bolder; color: #36AE7C; font-size: 7rem;">r</span>es  Pok<span style="font-family: 'Montserrat'; font-style: italic; font-weight: bolder; color: #36AE7C; font-size: 7rem;">e</span>mon<span style="font-family: 'Montserrat'; font-style: italic; font-weight: bolder; color: #36AE7C; font-size: 7rem;">s</span></div>
+        <div class="first-state">
+            <div data-jarallax-element="0 20" onmouseleave="onMouseOut('#h4')" onmousedown="onMouseHover(event, '#h4')"
+                class="cardHover jarallax" id="c4">
+
+                <img style="border-radius: 30px;" src="Sources/Scizor.png">
+
+                <div class="hover-pointer-package" id='h4'>
+                    <div class="hover-pointer"></div>
+                    <div class="hover-button">Behance</div>
+                    <div class="hover-content">
+                        <canvas id="Scizor-chart" style="width:100%; height: 100%;"></canvas>
+                    </div>
+                </div>
+
+                <div class="card-button">Scizor</div>
+                <div class="card-sub-button" id="sub1">Role: Single Target Killer</div>
+                <div class="card-sub-button" id="sub2">Bug-Steel</div>
+            </div>
+            <div class="card-content" data-jarallax-element="0 -20">
+                <p class="card-content-words">Scizor is a human-sized mantis similar to its evolutionary predecessor
+                    Scyther, with a thick, metallic red exoskeleton and crab-like claws. Scizor's body is as hard as
+                    steel, with claws strong enough to crush any hard object. They can be opened and closed like jaws,
+                    and are patterned with black, eyespots with yellow "pupils".</p>
+                <br>
+                <p class="card-content-words">They are tougher and stronger than Scyther, but have lost their
+                    predecessor's speed. Instead, they spread their wings to cool off, and flap them very rapidly to
+                    heat up, or to blow air to cool themselves off. While Scyther are mantis-like predator, striking
+                    fast and simply evading potential pursuers, Scizor are coated with a red steel of sorts and
+                    therefore not quite as agile. Once they engage their foes, either in the wild or at the direction of
+                    a Pokémon Trainer in a Pokémon battle, they behave more like Scyther, striking quickly with their
+                    powerful claws, raking more than pinching, and relying on their startling agility to evade attacks.
+                    They will raise their claws and wave them around to scare off predators or foes, giving them the
+                    appearance of having three heads.</p>
+                <br><br>
+                <div class="gif-image"
+                    style="width: 50%; display: flex; justify-content: space-around; align-items: center; opacity: 0; transition: opacity 0.5s;">
+                    <img src="Sources/Scizor_Front.gif">
+                    <img src="Sources/Scizor_Back.gif">
+                </div>
+            </div>
+        </div>
+        <div class="second-state">
+            <div class="card-content" data-jarallax-element="0 10">
+                <p class="card-content-words">Miltank is a bipedal, bovine Pokémon, which can only be female. Its body
+                    is mostly pink, with a yellow belly and black, angular markings along its back. A black hood-like
+                    marking surrounds its face with a pink, triangular mark on its forehead. There are two small horns
+                    on top of its head. It has large, blue eyes, a black nose, and a wide mouth, as well as long, black,
+                    floppy ears with yellow insides. Miltank has a yellow udder with four pink teats. All four of its
+                    limbs end in black, cloven hooves, and its long tail is tipped with a black sphere. In The Young
+                    Flame Strikes Back!, a smaller Miltank was shown without any horns or teats, implying that this is
+                    what young Miltank look like.</p>
+                <br><br>
+                <div class="gif-image"
+                    style="width: 50%; display: flex; justify-content: space-around; align-items: center; opacity: 0; transition: opacity 0.5s;">
+                    <img src="Sources/Miltank_Front.gif">
+                    <img src="Sources/Miltank_Back.gif">
+                </div>
+            </div>
+            <div data-jarallax-element="0 -10" onmouseleave="onMouseOut('#h5')" onmousedown="onMouseHover(event, '#h5')"
+                class="cardHover jarallax" id="c5">
+
+                <img style="border-radius: 30px;" src="Sources/Miltank.png">
+
+                <div class="hover-pointer-package" id='h5'>
+                    <div class="hover-pointer"></div>
+                    <div class="hover-button">Behance</div>
+                    <div class="hover-content">
+                        <canvas id="Miltank-chart" style="width:100%; height: 100%;"></canvas>
+                    </div>
+                </div>
+
+                <div class="card-button">Miltank</div>
+                <div class="card-sub-button" id="sub1">Role: Tanky Healer</div>
+                <div class="card-sub-button" id="sub2">Normal</div>
+            </div>
+        </div>
+        <div class="third-state">
+            <div onmouseleave="onMouseOut('#h6')" onmousedown="onMouseHover(event, '#h6')" data-jarallax-element="0 20"
+                class="cardHover jarallax" id="c6">
+
+                <img style="border-radius: 30px;" src="Sources/Zeraora.png">
+
+                <div class="hover-pointer-package" id='h6'>
+                    <div class="hover-pointer"></div>
+                    <div class="hover-button">Behance</div>
+                    <div class="hover-content">
+                        <canvas id="Zeraora-chart" style="width:100%; height: 100%;"></canvas>
+                    </div>
+                </div>
+
+                <div class="card-button">Zeraora</div>
+                <div class="card-sub-button" id="sub1">Role: Fast Strip Attacker</div>
+                <div class="card-sub-button" id="sub2">Electric</div>
+            </div>
+            <div class="card-content" data-jarallax-element="0 -20">
+                <p class="card-content-words">Zeraora is a bipedal feline Pokémon. It has mostly yellow fur with black
+                    lightning bolt designs, which cover its head, arms and part of it legs. It also has black fur on its
+                    face. It has blue bolts for whiskers and a blue spike on its head. Zeraora doesn't have a tail but
+                    it has long, tail-like fur between its shoulders on its back that takes the shape of a lightning
+                    bolt. Its paw pads are blue and its feet are black with three claws.</p>
+                <br>
+                <p class="card-content-words">Zeraora can create a powerful magnetic field by emitting strong electric
+                    currents from the pads on its hands and feet. It can use this magnetic field to levitate and move
+                    through the air at high speed. Its max speed is said to be about the same as that of a lightning
+                    strike.</p>
+                <br><br>
+                <div class="gif-image"
+                    style="width: 50%; display: flex; justify-content: space-around; align-items: center; opacity: 0; transition: opacity 0.5s;">
+                    <img src="Sources/Zeraora_Front.gif">
+                    <img src="Sources/Zeraora_Back.gif">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lastBg">
+        <span class="circle" data-jarallax-element="200 0"></span>
+        <h1>LET'S TALK <br> ABOUT THE NEXT <br> PROJECTS</h1>
+        <ul>
+            <li><a href="">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <h2>Give Me Advices</h2>
+                </a></li>
+            <li><a href="">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <h2>Discuss Projects</h2>
+                </a></li>
+        </ul>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="disc/jarallax.js"></script>
+    <script src="disc/jarallax-element.js"></script>
+    <script src="Scripts/pokewar.js"></script>
+</body>
+
+</html>
